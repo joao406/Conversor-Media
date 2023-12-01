@@ -3,10 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	"strconv"
+	"strconv" // fornece uma grande variedade de funções para a conversão de strings para outros formatos e vice-versa
 )
-
-// fornece uma grande variedade de funções para a conversão de strings para outros formatos e vice-versa
 
 func main() {
 	if len(os.Args) < 3 {
